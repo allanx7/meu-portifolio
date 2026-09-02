@@ -132,3 +132,52 @@ a > img:hover  {
     overflow: hidden;
     outline: 3px solid var(--destaques-iinversos);
 }
+
+
+/* divs cards video */
+  
+#detalhes {
+    grid-column: 2;
+    margin: auto;
+}
+
+article {
+    background: var(--fundo-card);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+article#video #video-conteiner {
+position: absolute;
+width: 100%;
+margin: auto;
+aspect-ratio: 16/1;
+}
+
+#video-conteiner iframe {
+ border-radius: 9px;
+}
+
+.fa-solid,h3{
+    color: var(--destaques);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.link-externo {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+}
+
+.link-interno {
+    text-decoration: none;
+}
+
+.link-interno:visited {
+    color: red;
+}
