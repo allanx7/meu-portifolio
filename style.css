@@ -14,6 +14,8 @@
     --destaques:#0077ff;
     --destaques-iinversos:#66bbff;
     --fundo-card:#ffffff;
+    --linha-cards:rgba(0, 0, 0, 0.171);
+    --sombras:10px 9px 37px 11px #0009;
 } 
 
 body {
@@ -21,6 +23,7 @@ body {
     line-height: 1.5em;
     background: var(--fundo-principal);
     color: var(--texto);
+   
 }
 
 
@@ -65,6 +68,7 @@ margin-top: 20px;
     padding: 20px;
     border-radius: 8px;
     grid-column: 2;
+    outline: 1px solid var(--linha-cards);
 }
 
 .ficha img.foto {
@@ -108,6 +112,7 @@ p {
     flex-wrap: wrap;
     position: relative;
     top: 12px;
+
 }
 
 
@@ -146,24 +151,24 @@ article {
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 8px;
+    outline: 1px solid rgba(0, 0, 0, 0.171);
 }
-
 
 #video-conteiner iframe {
- width: 70%;
- height: 26rem;
- border-radius: 9px;
+ width: 37rem;
+ height: 21rem;
+ border-radius: 19px;
  display: block;
  margin: auto;
+ object-fit: cover;
  aspect-ratio: 16/1;
+box-shadow: var(--sombras);
 }
-
 
 .skils , #detalhes {
     width: 100%;
 
 }
-
 
 .fa-solid,h3{
     color: var(--destaques);
@@ -191,8 +196,6 @@ h2 {
     color: red;
 }
 
-
-
 /* skills */
 #skill-conteiner {
     display: grid;
@@ -200,10 +203,14 @@ h2 {
     gap: 30px;
 }
 
+
+
 #skill-conteiner .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: 16px;
 }
 
 #skill-conteiner .nome {
@@ -214,6 +221,11 @@ h2 {
 #skill-conteiner .porcento {
     font-weight: bold;
     color: var(--destaques);
+}
+
+.porcento {
+    position: relative;
+    top: 22px;
 }
 
 #skill-conteiner .barra {
@@ -239,4 +251,11 @@ h2 {
 #skill-conteiner .nome {
  position: relative;
  top: 12px;
+}
+
+/* icones */
+.fa-chart-line,
+.fa-person-rays,
+.fa-code {
+    color: var(--texto);
 }
