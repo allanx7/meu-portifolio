@@ -8,5 +8,11 @@
 position: relative;
 right: 13px;
 }
+#skill-conteiner {
+   grid-template-columns: 2fr 1fr;
+}
 
+#video-conteiner iframe {
+   height: 10rem;
+}
 }

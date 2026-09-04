@@ -149,21 +149,30 @@ article {
 }
 
 
-article#video #video-conteiner {
-position: absolute;
-width: 100%;
-margin: auto;
-aspect-ratio: 16/1;
+#video-conteiner iframe {
+ width: 70%;
+ height: 26rem;
+ border-radius: 9px;
+ display: block;
+ margin: auto;
+ aspect-ratio: 16/1;
 }
 
-#video-conteiner iframe {
- border-radius: 9px;
+
+.skils , #detalhes {
+    width: 100%;
+
 }
+
 
 .fa-solid,h3{
     color: var(--destaques);
     margin-bottom: 12px;
     text-align: center;
+}
+
+h2 {
+    color: var(--destaques);
 }
 
 .link-externo {
@@ -180,4 +189,54 @@ aspect-ratio: 16/1;
 
 .link-interno:visited {
     color: red;
+}
+
+
+
+/* skills */
+#skill-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+#skill-conteiner .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skill-conteiner .nome {
+    font-weight: bold;
+    color: var(--texto);
+}
+
+#skill-conteiner .porcento {
+    font-weight: bold;
+    color: var(--destaques);
+}
+
+#skill-conteiner .barra {
+    width: 100%;
+    height: 8px;
+    background: var(--fundo-principal);
+    border-radius: 9px;
+}
+
+#skill-conteiner .progresso-html {
+    height: 100%;
+    background: var(--destaques);
+    border-radius: 9px;
+}
+
+/* parte css3*/
+#skill-conteiner .progresso-css3 {
+    height: 100%;
+    background: var(--destaques);
+    border-radius: 9px;
+}
+
+#skill-conteiner .nome {
+ position: relative;
+ top: 12px;
 }
