@@ -178,6 +178,8 @@ box-shadow: var(--sombras);
 
 h2 {
     color: var(--destaques);
+    position: relative;
+    bottom: 12px;
 }
 
 .link-externo {
@@ -258,4 +260,46 @@ h2 {
 .fa-person-rays,
 .fa-code {
     color: var(--texto);
+}
+
+/* periodo de formaçao */
+
+
+#formaçao-conteiner .periodo{
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+#formaçao-conteiner {
+    background: var(--fundo-principal);
+    gap: 13px;
+    margin-bottom: 14px;
+    padding: 13px;
+    border-radius: 9px;
+    border-left:  7px solid var(--destaques);
+    transition: .5s;
+}
+
+#formaçao-conteiner:hover {
+    transform: translateY(-6px);
+    background: var(--destaques-iinversos);
+}
+
+.escola {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.projeto-conteiner {
+   display: flex;
+   gap: 14px;
+   padding: 15px;
+   background: var(--fundo-principal);
+}
+
+.projeto-info .foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
