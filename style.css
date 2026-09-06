@@ -373,7 +373,8 @@ h2 {
 }
 
 body.escuro .projetos-container .projeto,
-body.escuro #skill-conteiner .barra {
+body.escuro #skill-conteiner .barra,
+body.escuro header{
   background: #171233;
   color: aqua;
 }
