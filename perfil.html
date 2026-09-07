@@ -1,243 +1,263 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mobile.css" />
-  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml" />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-  />
-  <title>Meu Portfólio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Meu Portfólio</title>
   </head>
   <body>
-  <header>
-  <nav id="menu">
-    <ul>
-      <li>
-        <a href="#ficha" class="link"><img src="img/home.svg" alt="Início" /></a>
-      </li>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#ficha" class="link"
+              ><img src="img/home.svg" alt="Início"
+            /></a>
+          </li>
 
-      <li>
-        <a href="#skils" class="link"><img src="img/neurology.svg" alt="Habilidades" /></a>
-      </li>
-      <li>
-        <a href="#formacao" class="link"><img src="img/school.svg" alt="Formação" /></a>
-      </li>
+          <li>
+            <a href="#skils" class="link"
+              ><img src="img/neurology.svg" alt="Habilidades"
+            /></a>
+          </li>
+          <li>
+            <a href="#formacao" class="link"
+              ><img src="img/school.svg" alt="Formação"
+            /></a>
+          </li>
 
-      <li>
-        <a href="#projetos" class="link"><img src="img/card_travel.svg" alt="Projetos" /></a>
-      </li>
+          <li>
+            <a href="#projetos" class="link"
+              ><img src="img/card_travel.svg" alt="Projetos"
+            /></a>
+          </li>
 
-      <li>
-        <button id="botao-tema" type="button" aria-label="Ativar modo escuro" aria-pressed="false">
-          <img id="icone-tema" src="img/moon.svg" alt="" />
-        </button>
-      </li>
-    </ul>
-  </nav>
-  </header>
+          <li>
+            <button
+              id="botao-tema"
+              type="button"
+              aria-label="Ativar modo escuro"
+              aria-pressed="false"
+            >
+              <img id="icone-tema" src="img/moon.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-  <section id="ficha" class="ficha">
-    <img src="img/guanabara-perfil.jpg" alt="" class="foto" />
+    <main>
+      <section id="ficha" class="ficha">
+        <img src="img/guanabara-perfil.jpg" alt="" class="foto" />
 
-    <h1>allan sant'anna nebias</h1>
-    <p>
-       Atualmente,
-       cursando <u>Qualidade de Software (QA) na IETC</u> Ilhabela e estudo
-      desenvolvimento web por (hobby) e como preparação para
-      futuras oportunidades profissionais.
-    </p>
+        <h1>allan sant'anna nebias</h1>
+        <p>
+          Atualmente, cursando
+          <u>Qualidade de Software (QA) na IETC</u> Ilhabela e estudo
+          desenvolvimento web por (hobby) e como preparação para futuras
+          oportunidades profissionais.
+        </p>
 
-    <div id="social">
-      <a href="#"><img src="img/facebook.png" alt="facebook" /></a>
+        <div id="social">
+          <a href="#"><img src="img/facebook.png" alt="facebook" /></a>
 
-      <a href="https://github.com/allanx7" target="_blank"><img src="img/github.png" alt="github" /></a>
+          <a href="https://github.com/allanx7" target="_blank"
+            ><img src="img/github.png" alt="github"
+          /></a>
 
-      <a href="#"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="img/linkedin.png" alt="LinkedIn" /></a>
 
-      <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
 
-      <a href="#"
-        ><img src="img/neurology.svg" alt="Site pessoal" class="sites"
-      /></a>
-    </div>
-  </section>
-
-  <section id="detalhes">
-    <article class="video">
-      <div id="video-conteiner">
-        <h3>
-          <i class="fa-solid fa-handshake"></i> Um dos cursos que contribui
-          para minha formação em HTML e CSS.
-        </h3>
-
-        <iframe
-          width="415"
-          height="512"
-          src="https://www.youtube.com/embed/cXbgKlUFBRg?si=ATVCmucWTML5dvlu"
-          title="YouTube video player"
-          frameborder="0"
-          allow="
-            accelerometer;
-            autoplay;
-            clipboard-write;
-            encrypted-media;
-            gyroscope;
-            picture-in-picture;
-            web-share;
-          "
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <span class="link-externo">
-          <i class="fa-solid fa-circle-play"></i>
-          Não conseguiu assistir por aqui?
-          <a
-            class="link-interno"
-            href="https://youtu.be/cXbgKlUFBRg?si=IpIYnmRgd4iuop8d"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Assistir à aula no YouTube</a
-          >
-        </span>
-      </div>
-    </article>
-    <!--fim-->
-
-    <article id="skils" class="skils">
-      <h2>
-        <i class="fa-solid fa-brain"></i>
-        Minhas habilidades
-      </h2>
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-code"></i>
-            HTML5
-          </span>
-
-          <span class="porcento"> 53% </span>
+          <a href="#"
+            ><img src="img/neurology.svg" alt="Site pessoal" class="sites"
+          /></a>
         </div>
-        <div class="barra">
-          <div class="progresso-html" style="width: 53%"></div>
-        </div>
-      </div>
-      <!--fim-->
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-code"></i>
-            CSS3
-          </span>
+      </section>
 
-          <span class="porcento"> 60% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 60%"></div>
-        </div>
-      </div>
-      <!--fim-->
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-code"></i>
-            JavaScript
-          </span>
+      <section id="detalhes">
+        <article class="video">
+          <div id="video-conteiner">
+            <h3>
+              <i class="fa-solid fa-handshake"></i> Um dos cursos que contribui
+              para minha formação em HTML e CSS.
+            </h3>
 
-          <span class="porcento"> 5% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 5%"></div>
-        </div>
-      </div>
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-person-rays"></i>
-            Comunicação
-          </span>
+            <iframe
+              width="415"
+              height="512"
+              src="https://www.youtube.com/embed/cXbgKlUFBRg?si=ATVCmucWTML5dvlu"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <span class="link-externo">
+              <i class="fa-solid fa-circle-play"></i>
+              Não conseguiu assistir por aqui?
+              <a
+                class="link-interno"
+                href="https://youtu.be/cXbgKlUFBRg?si=IpIYnmRgd4iuop8d"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Assistir à aula no YouTube</a
+              >
+            </span>
+          </div>
+        </article>
+        <!--fim-->
 
-          <span class="porcento"> 79% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 79%"></div>
-        </div>
-      </div>
-      <!--fim-->
+        <article id="skils" class="skils">
+          <h2>
+            <i class="fa-solid fa-brain"></i>
+            Minhas habilidades
+          </h2>
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-code"></i>
+                HTML5
+              </span>
 
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-person-rays"></i>
-            Trabalho em equipe
-          </span>
+              <span class="porcento"> 53% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-html" style="width: 53%"></div>
+            </div>
+          </div>
+          <!--fim-->
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-code"></i>
+                CSS3
+              </span>
 
-          <span class="porcento"> 87% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 87%"></div>
-        </div>
-      </div>
-      <!--fim-->
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-person-rays"></i>
-            Adaptabilidade
-          </span>
+              <span class="porcento"> 60% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 60%"></div>
+            </div>
+          </div>
+          <!--fim-->
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-code"></i>
+                JavaScript
+              </span>
 
-          <span class="porcento"> 5% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 5%"></div>
-        </div>
-      </div>
-      <!--fim-->
-      <div id="skill-conteiner">
-        <div class="info">
-          <span class="nome">
-            <i class="fa-solid fa-chart-line"></i>
-            Liderança
-          </span>
+              <span class="porcento"> 5% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 5%"></div>
+            </div>
+          </div>
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-person-rays"></i>
+                Comunicação
+              </span>
 
-          <span class="porcento"> 70% </span>
-        </div>
-        <div class="barra">
-          <div class="progresso-css3" style="width: 70%"></div>
-        </div>
-      </div>
-    </article>
-    <!--fim-->
+              <span class="porcento"> 79% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 79%"></div>
+            </div>
+          </div>
+          <!--fim-->
 
-    <article id="formacao" class="formaçao">
-      <h2>Formação</h2>
-      <div class="curso">
-        <div id="formaçao-conteiner">
-          <span class="periodo"> 2024 - 2027 </span>
-          <h4 class="escola">
-            Escola Maria Gemma <br />
-            Técnico em Administração
-          </h4>
-        </div>
-      </div>
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-person-rays"></i>
+                Trabalho em equipe
+              </span>
 
-      <div class="curso">
-        <div id="formaçao-conteiner">
-          <span class="periodo">
-            <span>2021-2022</span>
-          </span>
-          <h4 class="escola">Escola Cívico-Militar <br /></h4>
-        </div>
-      </div>
-    </article>
-    <!--fim-->
+              <span class="porcento"> 87% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 87%"></div>
+            </div>
+          </div>
+          <!--fim-->
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-person-rays"></i>
+                Adaptabilidade
+              </span>
+
+              <span class="porcento"> 5% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 5%"></div>
+            </div>
+          </div>
+          <!--fim-->
+          <div id="skill-conteiner">
+            <div class="info">
+              <span class="nome">
+                <i class="fa-solid fa-chart-line"></i>
+                Liderança
+              </span>
+
+              <span class="porcento"> 70% </span>
+            </div>
+            <div class="barra">
+              <div class="progresso-css3" style="width: 70%"></div>
+            </div>
+          </div>
+        </article>
+        <!--fim-->
+
+        <article id="formacao" class="formaçao">
+          <h2>
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            Formação
+          </h2>
+          <div class="curso">
+            <div id="formaçao-conteiner">
+              <span class="periodo"> 2024 - 2027 </span>
+              <h4 class="escola">
+                Escola Maria Gemma <br />
+                Técnico em Administração
+              </h4>
+            </div>
+          </div>
+
+          <div class="curso">
+            <div id="formaçao-conteiner">
+              <span class="periodo">
+                <span>2021-2022</span>
+              </span>
+              <h4 class="escola">Escola Cívico-Militar <br /></h4>
+            </div>
+          </div>
+        </article>
+        <!--fim-->
 
         <article id="projetos" class="projetos">
-          <h2>Projetos</h2>
+          <h2>
+            <i class="fa-solid fa-folder-open" aria-hidden="true"></i> Projetos
+          </h2>
           <div class="projetos-container">
             <div class="projeto">
               <img src="img/beco.png" alt="Projeto Beco" class="foto-site" />
@@ -250,7 +270,8 @@
                 </p>
                 <details class="detalhes">
                   Pratiquei a estruturação com HTML, a estilização com CSS e a
-                  construção de uma interface responsiva. <mark class="grifado">feito com ia</mark> 
+                  construção de uma interface responsiva.
+                  <mark class="grifado">feito com ia</mark>
                 </details>
               </div>
             </div>
@@ -376,38 +397,41 @@
             </div>
           </div>
         </article>
-    <!--fim-->
+        <!--fim-->
 
-    <article id="contato" class="site">
-      <h2><i class="fa-solid fa-paper-plane"></i> Obrigado pela visita</h2>
+        <article id="contato" class="site">
+          <h2><i class="fa-solid fa-paper-plane"></i> Obrigado pela visita</h2>
+          <p>
+            Este portfólio reúne parte da minha evolução nos estudos e dos
+            projetos que desenvolvo enquanto sigo aprendendo e criando novas
+            experiências na web.
+          </p>
+          <a class="botao-voltar" href="#ficha">
+            <i class="fa-solid fa-arrow-up"></i> Voltar ao início
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
       <p>
-        Este portfólio reúne parte da minha evolução nos estudos e dos
-        projetos que desenvolvo enquanto sigo aprendendo e criando novas
-        experiências na web.
+        Feito com dedicação para praticar HTML, CSS e JavaScript.
+        <u>rumo ao fullstack</u>
       </p>
-      <a class="botao-voltar" href="#ficha">
-        <i class="fa-solid fa-arrow-up"></i> Voltar ao início
-      </a>
-    </article>
-  </section>
-  </main>
+      <p>
+        Agradecimento especial ao professor
+        <a
+          href="https://www.cursoemvideo.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Gustavo Guanabara
+        </a>
+        e ao Curso em Vídeo pelos ensinamentos.
+      </p>
+      <small>&copy; 2026 — Meu Portfólio</small>
+    </footer>
 
-  <footer>
-  <p>
-    Feito com dedicação para praticar HTML, CSS e JavaScript. <u>rumo ao fullstack</u>
-  </p>
-  <p>
-    Agradecimento especial ao professor
-    <a href="https://www.cursoemvideo.com/" target="_blank" rel="noopener noreferrer">
-      Gustavo Guanabara
-    </a>
-    e ao Curso em Vídeo pelos ensinamentos.
-  </p>
-  <small>&copy; 2026 — Meu Portfólio</small>
-  </footer>
-
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
-  </html>
-
-
+</html>

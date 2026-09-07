@@ -105,13 +105,10 @@ main {
 
 .ficha {
   background: var(--fundo-card);
-  padding: 20px;
   border-radius: 8px;
+  padding: 30px;
   outline: 1px solid var(--linha-cards);
 }
-
-
-
 
 .ficha img.foto {
   width: 200px;
@@ -119,8 +116,8 @@ main {
   border-radius: 100%;
   object-fit: cover;
   overflow: hidden;
-  border: 5px solid var(--fundo-card);
-  outline: 3px solid var(--destaques);
+  outline: 4px solid var(--destaques);
+  padding: 4px;
   display: block;
   margin: auto;
   margin-bottom: 15px;
